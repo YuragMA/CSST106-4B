@@ -29,7 +29,8 @@ This field includes a range of techniques and algorithms designed to perform dif
 Images can degrade over time, especially older ones from before cloud storage was common. For example, photos from old instant cameras may get scratched. Image Restoration is an important technique used to fix these damaged images. Advanced methods, including Deep Learning, can help recover missing parts of old or torn documents, revealing information that was lost.
 
 The example below shows an old photo that, with the help of image restoration, has been restored to its original appearance.
-![image](https://github.com/user-attachments/assets/37e9b539-05b4-45f2-9139-d9ffeda4febb)
+
+![Screenshot 2024-09-06 at 11 02 30](https://github.com/user-attachments/assets/898153e7-fb26-4f01-90a2-0e521b37555a)
 _Figure 1. Image Restoration_
 
 **2. Object Detection**
@@ -37,13 +38,15 @@ _Figure 1. Image Restoration_
 Object Detection involves finding and identifying objects in an image. It’s commonly used in security and surveillance. The most common method uses Deep Learning, especially Convolutional Neural Networks (CNNs), to detect objects accurately.
 
 The example below shows how object detection is used in highway security cameras to identify and monitor vehicles.
-![image](https://github.com/user-attachments/assets/0910be4f-e54b-4e3a-a263-34194cf76d89)
+
+![Screenshot 2024-09-06 at 11 03 13](https://github.com/user-attachments/assets/f6462662-56f6-42c0-9c92-fea981f420b3)
 _Figure 2. Object Detection_
 
 **3. Image-to-Image Translation**
 
 Image-to-Image Translation involves learning how to transform one type of image into another. For example, you can input a free-hand sketch and get a realistic image of the object from that sketch. This is done by training a model with pairs of related images as shown below.
-![image](https://github.com/user-attachments/assets/f1c823ea-2e1b-4113-91d0-17a3eb5dd38e)
+
+![Screenshot 2024-09-06 at 11 03 37](https://github.com/user-attachments/assets/758d87e1-70b7-4136-b631-8d5b00073ca7)
 _Figure 3. Image-to-Image Translation_
 
 
