@@ -56,7 +56,7 @@ This case study explores a real-world AI application that uses computer vision s
 
 **Sports analytics** uses computer vision to analyze sports videos and extract important insights. By applying techniques like object detection and tracking, computer vision models can identify and follow players, balls, and other objects during a game. This allows for automatic data collection on player positions, ball movements, pass accuracy, shot speed, and more. These insights help teams understand strategies, player performance, and game dynamics.
 
-https://github.com/user-attachments/assets/accab984-3511-4340-a3ab-c39b4199d9c1
+https://github.com/user-attachments/assets/5a0a776b-c1c9-4e5f-9225-b30d1f577082
 
 However, this application faces challenges like data imbalance and label quality. For example, detecting and tracking the ball in a football match can be difficult due to its small size and fast movement. A **data-centric approach** improves model performance by ensuring the training data is high-quality, balanced, and accurately labeled, enabling the model to better recognize all objects and accurately analyze game footage.
 
@@ -68,12 +68,6 @@ However, this application faces challenges like data imbalance and label quality
 Based on the case study I chose, which is **object detection**, I believe it will greatly help sports analytics. To support this, I have an image-processing implementation for **Player Detection and Tracking in Soccer Matches**. In sports analytics, accurately detecting and tracking players on the field during a soccer match is crucial for analyzing team formations, player movements, and tactical strategies. A simple yet effective problem to tackle is "Detecting and tracking all players on the field in a soccer match video."
 
 To address this problem, we can create an image processing model that combines image segmentation with object detection algorithms. This model will detect each player and track their movements across video frames.
-
-**Football Soccer Datasets**
-<a href="[https://www.example.com](https://github.com/ultralytics/ultralytics)">Pre-trained YOLO v8</a>
-<a href="[https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/2]">Fine-tuned Data</a>
-
-
 
 
 **1. Preprocessing:**
@@ -104,7 +98,20 @@ Use the tracked player positions to analyze player movements, formations, and ta
 
 Effective image processing is key to making AI systems work well, especially in areas like sports analytics where accurately finding and tracking players and the ball is important for understanding the game. By processing images correctly, separating important parts, and using detection and tracking methods, AI can gather useful insights for better decision-making. This activity taught me how different image processing techniques must be combined to solve specific problems and how these steps help AI models perform better and provide more reliable analysis.
 
-![Screenshot 2024-09-06 at 15 10 51](https://github.com/user-attachments/assets/1853c1bb-0dab-40aa-be36-8fdd51dca126)
+![Screenshot 2024-09-06 at 15 20 46](https://github.com/user-attachments/assets/c4b1caf0-1d00-45eb-aa26-802218879802)
+
+# **References**
+
+ - Bose, B. (2022, April 27). Introduction to Basic Computer Vision & Image Processing. Medium; Medium. https://bishalbose294.medium.com/introduction-to-basic-computer-vision-image-processing-f692aa1a4f18
+
+- Rouse, M. (2019). Techopedia - Where Information Technology and Business Meet. Techopedia.com. https://www.techopedia.com/
+
+- Image Processing: Techniques, Types, & Applications [2023]. (n.d.). Www.v7labs.com. https://www.v7labs.com/blog/image-processing-guide#image-processing-techniques
+
+- The Tenyks Blogger. (2023, November 8). Sports Analytics — A Data-Centric Approach to Computer Vision. Medium; Medium. https://medium.com/@tenyks_blogger/sports-analytics-a-data-centric-approach-to-computer-vision-246f19cf8a04
+
+- Boesch, G. (2023, November 28). Computer Vision Trends - The Ultimate 2024 Overview - viso.ai. Viso.ai. https://viso.ai/computer-vision/computer-vision-trends/#:~:text=Edge%20Computing%20and%20Lightweight%20Architecture
+
 
 
 
