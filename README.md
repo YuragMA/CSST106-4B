@@ -52,7 +52,87 @@ _Figure 3. Image-to-Image Translation_
 
 # **Case Study**
 
-This case study explores a real-world AI application that uses computer vision, **Sports Analytics**. It focuses on a data-centric approach to analyzing and interpreting sports data through computer vision techniques.
+This case study explores a real-world AI application that uses computer vision specifically **object detection in** **Sports Analytics**. It focuses on a data-centric approach to analyzing and interpreting sports data through computer vision techniques.
+
+**Sports analytics** uses computer vision to analyze sports videos and extract important insights. By applying techniques like object detection and tracking, computer vision models can identify and follow players, balls, and other objects during a game. This allows for automatic data collection on player positions, ball movements, pass accuracy, shot speed, and more. These insights help teams understand strategies, player performance, and game dynamics.
+
+https://github.com/user-attachments/assets/accab984-3511-4340-a3ab-c39b4199d9c1
+
+However, this application faces challenges like data imbalance and label quality. For example, detecting and tracking the ball in a football match can be difficult due to its small size and fast movement. A **data-centric approach** improves model performance by ensuring the training data is high-quality, balanced, and accurately labeled, enabling the model to better recognize all objects and accurately analyze game footage.
+
+
+# **Image Processing Implementation** 
+
+**Player Detection and Tracking in Soccer Matches**
+
+Based on the case study I chose, which is **object detection**, I believe it will greatly help sports analytics. To support this, I have an image-processing implementation for **Player Detection and Tracking in Soccer Matches**. In sports analytics, accurately detecting and tracking players on the field during a soccer match is crucial for analyzing team formations, player movements, and tactical strategies. A simple yet effective problem to tackle is "Detecting and tracking all players on the field in a soccer match video."
+
+To address this problem, we can create an image processing model that combines image segmentation with object detection algorithms. This model will detect each player and track their movements across video frames.
+
+**Football Soccer Datasets**
+<a href="[https://www.example.com](https://github.com/ultralytics/ultralytics)">Pre-trained YOLO v8</a>
+<a href="[https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/2]">Fine-tuned Data</a>
+
+
+
+
+**1. Preprocessing:**
+
+Convert each frame of the video to grayscale to simplify the data, reducing computational load and improving processing speed.
+Apply Gaussian Blur to reduce noise and smoothen the image, helping the model focus on relevant features.
+
+**2. Image Segmentation:**
+
+Use a Background Subtraction technique to separate the moving players (foreground) from the static background (field). This technique is effective in highlighting players by subtracting the static field background from each frame.
+
+**3. Object Detection:**
+
+Apply a Bounding Box Detection method using algorithms like YOLO (You Only Look Once) or SSD (Single Shot MultiBox Detector) to detect each player as an object within each frame. Bounding boxes will be drawn around detected players to isolate them from the background.
+
+**4. Object Tracking:**
+
+Implement a Multi-Object Tracking algorithm (like SORT - Simple Online and Realtime Tracking) to track each detected player across multiple frames. The algorithm will assign a unique ID to each player and follow them as they move around the field.
+
+**5. Post-Processing and Analysis:**
+
+Use the tracked player positions to analyze player movements, formations, and tactical strategies. The data can help in understanding player positioning, stamina, and team coordination.
+
+**Effectiveness of the Model:** This model is effective in solving the problem of player detection and tracking by using a combination of background subtraction, object detection, and multi-object tracking techniques. It provides a foundation for advanced sports analytics, enabling automated analysis of player performance and game tactics.
+
+
+# **Conclusion**
+
+Effective image processing is key to making AI systems work well, especially in areas like sports analytics where accurately finding and tracking players and the ball is important for understanding the game. By processing images correctly, separating important parts, and using detection and tracking methods, AI can gather useful insights for better decision-making. This activity taught me how different image processing techniques must be combined to solve specific problems and how these steps help AI models perform better and provide more reliable analysis.
+
+![Screenshot 2024-09-06 at 15 10 51](https://github.com/user-attachments/assets/1853c1bb-0dab-40aa-be36-8fdd51dca126)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
